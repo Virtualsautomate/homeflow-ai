@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HomeFlow AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+
+        <div class="brand">
+            <span class="logo">🏠</span>
+            <h1>HomeFlow AI</h1>
+        </div>
+
+        <p class="tagline">
+            AI-powered assistants for modern real estate agents.
+        </p>
+
+        <button id="demoButton" type="button">
+            Book a Demo
+        </button>
+
+        <form id="demoForm" class="demo-form hidden">
+
+            <h2>Book a Free Demo</h2>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                autocomplete="name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your email"
+                autocomplete="email"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Your phone number"
+                autocomplete="tel"
+            >
+
+            <input
+                type="text"
+                id="business"
+                placeholder="Business name"
+                autocomplete="organization"
+            >
+
+            <button id="submitDemo" type="submit">
+                Schedule Demo
+            </button>
+
+        </form>
+
+        <p id="successMessage" class="success-message hidden">
+            ✅ Thank you! We’ll contact you within 24 hours.
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
